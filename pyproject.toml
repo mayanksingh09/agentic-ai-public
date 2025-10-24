@@ -1,0 +1,22 @@
+[project]
+name = "agentic-ai-public"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aisuite>=0.1.12",
+    "docstring-parser>=0.14.1",
+    "fastapi>=0.120.0",
+    "jinja2>=3.1.6",
+    "openai>=2.6.1",
+    "pdfminer-six>=20250506",
+    "psycopg2-binary>=2.9.11",
+    "pymupdf>=1.26.5",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "sqlalchemy>=2.0.44",
+    "tavily-python>=0.7.12",
+    "uvicorn[standard]>=0.38.0",
+    "wikipedia>=1.4.0",
+]
